@@ -1,7 +1,7 @@
 # dpyAesCrypt.py
 dAescrypt.py is a multithreaded brute-force tool to crack .aes files encrypted using the pyAesCrypt library. It supports password length filtering, progress display with ETA, and optional decryption after cracking.
 # Warning
-Only use for low length password protected files to brutforce with a wordlist , beacuse higher the password length higher the execution cost and time
+Only intended for brute-forcing files protected with short passwords using a wordlist. As password length increases, the time and computational cost grow significantly, making this tool less practical for long or complex passwords.
 # Usage
 - `python3 dpyAesCrypt.py <file> <wordlist>`
 - `python3 dpyAesCrypt.py file.aes wordlist.txt`
